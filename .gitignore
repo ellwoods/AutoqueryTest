@@ -45,3 +45,55 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Ignore file for Visual Studio 2008
+
+# use glob syntax
+syntax: glob
+
+# Ignore Visual Studio 2008 files
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.orig
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+[Bb]in
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.dbmdl
+.idea/
+*.DS_Store
+*.vs10x
+*~AutoRecover.*
+packages/*
+Visualizers/*
+# files added for admin gui
+*.png
+*.ico
+*.old
+*nCrunchTemp*
+*StyleCop.Cache
+*.localhistory*
+*.rej
+*.patch
